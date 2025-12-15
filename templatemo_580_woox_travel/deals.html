@@ -1,0 +1,2332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Battambang' rel='stylesheet'>
+
+    <title>Trekker Search</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-woox-travel.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 580 Woox Travel
+
+https://templatemo.com/tm-580-woox-travel
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                      <img src="assets/images/trekker-high-resolution-logo-white-transparent.png" alt="">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="index.html">ខេត្តដែលល្បីៗ</a></li>
+                        <li><a href="about.html">ខេត្តផ្សេងទៀត</a></li>
+                        <li><a href="deals.html" class="active">ព័ត៌មានបន្ថែម</a></li>
+                        <li><a href="reservation.html">ផ្តល់យោបល់</a></li>
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>ស្វែងរកទីកន្លែងជាច្រេីនដែលមាននៅក្នុងខេត្តនៃប្រទេសកម្ពុជា</h4>
+          <h2>តោះយើង!!</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="search-form">
+    <div class="container">
+      <div class="row"​>
+        <div class="col-lg-12">
+          <form id="search-form" name="gs" method="submit" role="search" action="#">
+            <div class="row" style="font-family:'Battambang'; font-size:25px;">
+              <div class="col-lg-2"​ >
+                <h4>ស្វែងរកតាមតំបន់</h4>
+              </div>
+              <div class="col-lg-6">
+                <fieldset style="font-family:'Battambang'">
+                  <select name="Location" class="form-select" id="chooseArea" onclick="ToArea()">
+                    <option selected>តំបន់់</option>
+                    <option value="C1">តំបន់ជុំវិញបឹងទន្លេសាប</option>
+                    <option value="C2">តំបន់ភ្នំនិងខ្ពង់រាប</option>
+                    <option value="C3">តំបន់វាលរាប</option>
+                    <option value="C4">តំបន់សមុទ្រ</option>
+
+                  </select>
+                </fieldset>
+              </div>
+              <div class="col-lg-2">
+                <button class="border-button">Search</button>
+              </div>
+             
+            </div>
+      
+          </form>
+            
+          
+        </div>
+      </div>
+     
+      <br>
+      <script>
+        function ToArea(){
+          var selectArea=document.getElementById('chooseArea');
+          var selectedPlace=selectArea.value;
+          switch(selectedPlace){
+            case 'C1':
+              window.location.href='about.html#C1';
+              break;
+            case 'C2':
+              window.location.href='about.html#C2';
+              break;
+            case 'C3':
+              window.location.href='about.html#C3';
+              break;
+            case 'C2':
+              window.location.href='about.html#C4';
+              break;
+            
+            default:
+          }
+        }
+        function redirect() {
+          var selectElement = document.getElementById('chooseLocation');
+          var selectedOption=selectElement.value;
+         
+          switch(selectedOption){
+            case 'P1':
+              window.location.href='#P1';
+              break;
+            case 'P2':
+              window.location.href='#P2';
+              break;
+            case 'P3':
+              window.location.href='#P3';
+              break;
+            case 'P4':
+              window.location.href='#P4';
+              break;
+            case 'P5':
+              window.location.href='#P5';
+              break;
+            case 'P6':
+              window.location.href='#P6';
+              break;
+            case 'P7':
+              window.location.href='#P7';
+              break;
+            case 'P8':
+              window.location.href='#P8';
+              break;
+            case 'P9':
+              window.location.href='#P9';
+              break;
+            case 'P10':
+              window.location.href='#P10';
+              break;
+            case 'P11':
+              window.location.href='#P11';
+              break;
+            case 'P12':
+              window.location.href='#P12';
+              break;
+            case 'P13':
+              window.location.href='#P13';
+              break;
+            case 'P14':
+              window.location.href='#P14';
+              break;
+            case 'P15':
+              window.location.href='#P15';
+              break;
+            case 'P16':
+              window.location.href='#P16';
+              break;
+            case 'P17':
+              window.location.href='#P17';
+              break;
+            case 'P18':
+              window.location.href='#P18';
+              break;
+            case 'P19':
+              window.location.href='#P19';
+              break;
+            case 'P20':
+              window.location.href='#P20';
+              break;
+            case 'P21':
+              window.location.href='#P21';
+              break;
+            case 'P22':
+              window.location.href='#P22';
+              break;
+            case 'P23':
+              window.location.href='#P23';
+              break;
+            case 'P24':
+              window.location.href='#P24';
+              break;
+            case 'P25':
+              window.location.href='#P25';
+              break;
+
+            default:
+          
+          }
+          
+          
+          
+          }
+          
+        
+      </script>
+      <div class="row">
+        <div class="col-lg-12">
+          <form id="search-form" name="gs" method="submit" role="search" action="#">
+            <div class="row">
+              <div class="col-lg-2">
+                <h4>ស្វែងរកតាមខេត្ត</h4>
+              </div>
+                  <div class="col-lg-6">
+                    <fieldset style="font-family:'Battambang'">
+                      <select name="Location" class="form-select" id="chooseLocation" onclick="redirect()">
+                        <option selected>ខេត្ត</option>
+                        <option value="P1">កំពង់់ធំ</option>
+                        <option value="P2">បន្ទាយមានជ័យ</option>
+                        <option value="P3">ពោធិ៍សាត់</option>
+                        <option value="P4">ឧត្ដរមានជ័យ</option>
+                        <option value="P5">សៀមរាប</option>
+                        <option value="P6">បាត់ដំបង</option>
+                        <option value="P7">កំពង់ឆ្នាំង</option>
+                        <option value="P8">ប៉ៃលិន</option>
+                        <option value="P9">កំពង់ស្ពឺ</option>
+                        <option value="P10">រតនគិរី</option>
+                        <option value="P11">ក្រចេះ</option>
+                        <option value="P12">ព្រះវិហារ</option>
+                        <option value="P13">ស្ទឹងត្រែង</option>
+                        <option value="P14">មណ្ឌលគិរី</option>
+                        <option value="P15">រាជធានីភ្នំពេញ</option>
+                        <option value="P16">កំពង់ចាម</option>
+                        <option value="P17">ព្រៃវែង</option>
+                        <option value="P18">ត្បូងឃ្មុំ</option>
+                        <option value="P19">កណ្តាល</option>
+                        <option value="P20">ស្វាយរៀង</option>
+                        <option value="P21">តាកែវ</option>
+                        <option value="P22">ព្រះសីហនុ</option>
+                        <option value="P23">កោះកុង</option>
+                        <option value="P24">កំពត</option>
+                        <option value="P25">កែប</option>  
+                      </select>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-2">
+                    <button class="border-button">Search</button>
+                  </div>
+                  
+            </div>
+          
+          </form>
+      
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  
+  <br>
+  <br>
+  <br>
+  <div class="cities-town" >
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P1"><em>កំពង់ធំ</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kampongthom/KPT1.jpg" alt="">
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/RzHyEFBLneXqVBWM8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">រង្វង់មូលលោកតាក្រហមក</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kampongthom/KPT3.jpg" alt="">
+                    
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/jAayNV54rxFMDVB86" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ដើមត្នោតtrip</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kampongthom/KPT4.jpg" alt="">              
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/SBm6M1ingkUzGHo77" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វត្តឃ្លាំងខ្មូត</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/Kampongthom/KPT5.jpg" alt="">
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/jAayNV54rxFMDVB86" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ថ្ងៃលិចស្ទឹងសែន </h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/Kampongthom/KPT6.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/5sUL3HxZZ8tsdGWs5" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ប្រាសាទសម្បូរព្រៃគុក</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kampongthom/KPT1.jpg" alt="">
+                  </div>
+                  <br>
+                  
+                  <a href = "https://maps.app.goo.gl/RzHyEFBLneXqVBWM8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">រង្វង់មូលលោកតាក្រហមក</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kampongthom/KPT3.jpg" alt="">
+                  </div>
+                  <br>
+                   
+                  <a href = "https://maps.app.goo.gl/jAayNV54rxFMDVB86" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ដើមត្នោតtrip</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/Kampongthom/KPT4.jpg" alt="">
+                    
+                  </div>
+                  <br>
+                   
+                  <a href = "https://maps.app.goo.gl/SBm6M1ingkUzGHo77" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វត្តឃ្លាំងខ្មូត</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town" >
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="#P5"><em>សៀមរាប</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/SR/SR1.jpg" alt="">
+                  </div>
+                  <br>
+                  
+                  <a href = "https://maps.app.goo.gl/sLDCm5YpvCxHVZkd8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភូមិវប្បធម៌</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/SR/SR2.jpg" alt="">
+                    
+                  </div>
+                  <br>
+                  
+                  <a href = "https://maps.app.goo.gl/4MJK2untyZBWTqAq8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំក្រោមនិងសួនច្បារនៅភ្នំក្រោម</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/SR/SR3.jpg" alt="">         
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/jAayNV54rxFMDVB86" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ជិះទូកបុរាណ</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/SR/SR4.jpg" alt="">
+                  </div>
+                  <br>
+                  
+                  <a href = "https://maps.app.goo.gl/jAayNV54rxFMDVB86" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ថ្ងៃរះនៅអង្គរវត្ត</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/SR/SR5.jpg" alt="">
+                  </div>
+                  <br>
+              
+                  <a href = "https://maps.app.goo.gl/jAayNV54rxFMDVB86" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ជិះទូកមើលថ្ងៃលិច</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/SR/SR6.jpg" alt="">
+                  </div>
+                  <br>
+                   
+                  <a href = "https://maps.app.goo.gl/jAayNV54rxFMDVB86" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កន្ត្រកហោះ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/SR/SR7.jpg" alt="">
+                  </div>
+                  <br>
+                  
+                  <a href = "https://maps.app.goo.gl/7dp5eG1epqxpHsiZ6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">បាគងភូមិខ្ញុំ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/SR/SR8.jpg" alt="">       
+                  </div>
+                  <br>
+  
+                  <a href = "https://maps.app.goo.gl/3jbHhhnxficbhNYg8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">Theam's gallery</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="#P24"><em>កំពត</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kampot/KMP1.jpg" alt="">
+                  </div>
+                  <br>
+                   
+                  <a href = "https://maps.app.goo.gl/97wQSrJSizPrvphp7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">Baili Villa</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kampot/KMP2.jpg" alt="">
+                    
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/jAayNV54rxFMDVB86" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">បុណ្យសមុទ្រ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kampot/KMP3.jpg" alt="">
+                    
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/a43FMUMmFRG8smGC9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">Moly Resort</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/Kampot/KMP4.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/4h1qjEhWkgDN7tSF7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">មើលព្រៃកោងកាង</h4></a>
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/Kampot/KMP5.jpg" alt="">
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/JteobCbmG3LPuVZ2A" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់តាដា</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kampot/KMP6.jpg" alt="">
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/N7aiEkGA8ZSu7SZd9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ឧទ្យានដងព្រែក</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kampot/KMP7.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/PqTZK1GfhbapQmGg7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំបូកគោ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/Kampot/KMP8.jpg" alt="">                 
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/UdHA4iP9ET5CkVhMA" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វាលពួចទឹកធ្លាក់ដំណាក់ព្រះ</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P15"><em>រាជធានីភ្នំពេញ</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/images/kandal-01_crop.jpg.png" alt="">
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/8F5JfsbCgJK3umdx6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ព្រះបរមរាជវាំង</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/images/museum.jpg" alt="">
+                    
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/weydaowpsH669bjk6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">សារមន្ទីរជាតិ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/images/wat_phnom.jpg" alt="">
+                    
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/eU7mVNXwEcYzyzNR8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វត្តភ្នំ</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/images/indepandence_monument.jpg" alt="">
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វិមានឯករាជ្យ</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/images/wat_ounalom.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/3837VB82EFzo7qeD8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វត្តឧណ្ណាលោម</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/images/choeurng_ek.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/QMRnfhypoES53aLa9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វាលពិឃាតជើងឯក</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/images/toul_sleng.jpg" alt="">
+                  </div>
+                  <br>
+    
+                  <a href = "https://maps.app.goo.gl/r3gypr739vvZDn7K6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">សារមន្ទីរទួលស្លែង ស-២១</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/images/aeon.jpg" alt="">
+                    
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/JJfaQB62y1aKp6ca7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">AEON Mall II</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P25"><em>កែប</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KEP/KP1.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/ZwkVEEikEucFGbhr9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ឆ្នេរអង្កោល</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KEP/KP2.jpg" alt="">
+                    
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/x5wimkgo4VhMwDAL6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">Bungalow House</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KEP/KP3.jpg" alt="">
+                    
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/GjEKYWZjt325ug9u5" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ឆ្នេរកែបថ្មី</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/KEP/KP4.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កាហ្វេលើភ្នំ  កែប </h4></a>
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/KEP/KP5.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">រីសត ជាប់ជើងភ្នំ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KEP/KP1.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/ZwkVEEikEucFGbhr9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ឆ្នេរអង្កោល</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KEP/KP2.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/x5wimkgo4VhMwDAL6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">Bungalow House</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/KEP/KP3.jpg" alt="">              
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/GjEKYWZjt325ug9u5" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ឆ្នេរកែបថ្មី</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P6"><em>បាត់ដំបង</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BTB/BTB1.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ស្ពានចាស់</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BTB/BTB2.jpg" alt="">
+                    
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ក្រុងចាស់នៃបាត់ដំបង</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BTB/BTB3.jpg" alt="">
+                    
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កាហ្វេកន្ត្រក</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/BTB/BTB4.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/Hem2DuqQGn8WABou6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វត្តដំរីស</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/BTB/BTB5.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/Y7dcDqANN4fRS8v67" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ផ្សារធំបាត់ដំបង</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BTB/BTB6.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/WmCPdxdDR3sJ5p6H9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ឡូរីចាស់</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BTB/BTB7.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/jAayNV54rxFMDVB86" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំបាណន់</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/BTB/BTB8.jpg" alt="">
+                    
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/Mrj7H2p5iRxJeZ4n7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ប្រាសាទឯកភ្នំ</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P19"><em>កណ្តាល</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/kandal/K1.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/6BxEgnQfXM7PTLGE8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ដំណាក់មនោរម្យ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/kandal/K2.jpg" alt="">
+                    
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/TxfJGVkEA4Fn37AV9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ចំការឈូក</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/kandal/K3.jpg" alt="">
+                    
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/du9tXnCT6DDqYQNU9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">មីលាក់ខ្លួន</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/kandal/K1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/6BxEgnQfXM7PTLGE8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ដំណាក់មនោរម្យ</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/kandal/K2.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/TxfJGVkEA4Fn37AV9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ចំការឈូក</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/kandal/K3.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/du9tXnCT6DDqYQNU9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">មីលាក់ខ្លួន</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/kandal/K1.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/6BxEgnQfXM7PTLGE8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ដំណាក់មនោរម្យ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/kandal/K2.jpg" alt="">         
+                  </div>
+                  <br>
+     
+                  <a href = "https://maps.app.goo.gl/TxfJGVkEA4Fn37AV9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ចំការឈូក</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P7"><em>កំពង់ឆ្នាំង</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Chnang/C1.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/iheUX8cqG9khhkrH9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">រមណីយដ្ឋានអាណាចក្រដូង</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Chnang/C2.jpg" alt="">        
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/pX1Ua5jbzVRUNvie8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកជ្រោះថ្មក្រាល</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Chnang/C3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/AeN7X4zM52uN7oL88" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំនាងកង្រី</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/Chnang/C1.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/iheUX8cqG9khhkrH9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">រមណីយដ្ឋានអាណាចក្រដូង</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/Chnang/C2.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/pX1Ua5jbzVRUNvie8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកជ្រោះថ្មក្រាល</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Chnang/C3.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/AeN7X4zM52uN7oL88" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំនាងកង្រី</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Chnang/C1.jpg" alt="">
+                  </div>
+                  <br>
+      
+                  <a href = "https://maps.app.goo.gl/iheUX8cqG9khhkrH9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">រមណីយដ្ឋានអាណាចក្រដូង</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/Chnang/C2.jpg" alt="">
+                    
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/pX1Ua5jbzVRUNvie8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកជ្រោះថ្មក្រាល</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content"​​>
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P16"​> <em>កំពង់ចាម</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Cham/Cham1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/8XJ9fK59yy4vMduY6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">អាហារដ្ឋានខន្តី</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Cham/Cham2.jpg" alt="">       
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/HvXVixMqE4TXdHoY8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ស្ពានកោះប៉ែន</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Cham/Cham3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/swbnNd3qJrShpezy5" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំប្រុសភ្នំស្រី</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/Cham/Cham4.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/8XJ9fK59yy4vMduY6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">អាហារដ្ឋានស្មៅទន្លេ </h4></a>
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/Cham/Cham5.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ចម្ការគ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Cham/Cham1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/8XJ9fK59yy4vMduY6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">អាហារដ្ឋានខន្តី</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="alssets/Cham/Cham2.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">្ពានកោះប៉ែន</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/Cham/Cham3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំប្រុសភ្នំស្រី</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P9"><em>កំពង់ស្ពឺ</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Speu/SP1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/Kz5KFpQg9VJqVorY7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំខ្នងផ្សារ</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Speu/SP2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/XgbVK9z1r4GUjAvy5" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភូមិដំណាក់ដំរី</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Speu/SP3.jpg" alt="">
+                    
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/T5znzR5xGqSyzni37" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កាហ្វេមាត់បឹង</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/Speu/SP4.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/XSHvvPfUmn3Bzv847" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់ជ្រាវ</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/Speu/SP5.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/sb7XVgEPkb5J8WoF6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់ចំបក់</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Speu/SP1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/Kz5KFpQg9VJqVorY7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំខ្នងផ្សារ</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Speu/SP2.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/XgbVK9z1r4GUjAvy5" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភូមិដំណាក់ដំរី</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/Speu/SP3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/T5znzR5xGqSyzni37" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កាហ្វេមាត់បឹង</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P14"><em>មណ្ឌលគិរី</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/MKiri/MK1.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/dmuDKfZu8qD58ob28" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">តាំងភូមីរីសត</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/MKiri/MK2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/YpEeXPrYK4xcnrXaA" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">Sauveli Resort</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/MKiri/MK3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/gqdbFnDDt91jKAgWA" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ចំការតែមណ្ឌលគិរី</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/MKiri/MK4.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/8r9pEp6FBqjA4SiP6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកជ្រោះប៊ូស្រា</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/MKiri/MK5.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/wSoo4ZLcPpMUmqWF6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភូមិពូតាំង</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/MKiri/MK6.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/6BThEifRq9Eo4yeJ8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់ដំណាក់ស្តេច</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/MKiri/MK7.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/6BThEifRq9Eo4yeJ8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំសាងស្នេហ៍</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/MKiri/MK4.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/8r9pEp6FBqjA4SiP6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកជ្រោះប៊ូស្រា</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P10"><em>រតនគិរី</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/RKiri/RK1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/2bqEfK7AqAoRR2pq7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ឧទ្យានជាតិវីវជ័យ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/RKiri/RK2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/qHaqyYXxXAEMQeFJA" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វត្តភ្នំស្វាយ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/RKiri/RK3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/n2pZ9f5qcquF4A736" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់កាចាញ</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/RKiri/RK4.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/TXuxfghkZUrT6vB37" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">បឹងយក្សឡោម</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/RKiri/RK2.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/qHaqyYXxXAEMQeFJA" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វត្តភ្នំស្វាយ</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/RKiri/RK1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/2bqEfK7AqAoRR2pq7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ឧទ្យានជាតិវីវជ័យ</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/RKiri/RK2.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/qHaqyYXxXAEMQeFJA" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វត្តភ្នំស្វាយ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/RKiri/RK3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/n2pZ9f5qcquF4A736" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់កាចាញ</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P11"><em>ក្រចេះ</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kratie/KR1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/7TJvEftxLMD3y89UA" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ផ្ទះស្នាក់ទេសចរ៍កោះទ្រង់</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kratie/KR2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">សុរិយាបុរី</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kratie/KR3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/Z46NztEWf7FTZ1ix7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">រមណីយដ្ឋានព្រែកកាំពី</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/Kratie/KR4.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/Phpjp4cccinEBXsg8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">សហគមន៍អេកូទេសចរណ៍កោះទ្រង់</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/Kratie/KR5.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/Z46NztEWf7FTZ1ix7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទស្សនាសត្វផ្សោត</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kratie/KR6.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/rF8PR5xkfhZMBqx57" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វត្តភ្នំសំបុក</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Kratie/KR1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/7TJvEftxLMD3y89UA" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ផ្ទះស្នាក់ទេសចរណ៍កោះទ្រង់</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/Kratie/KR2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">សុរិយាបុរី</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P8"><em>ប៉ៃលិន</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Pailin/P1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ចំការខ្នុរ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Pailin/P2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">អាហារដ្ឋានម្លប់ស្បូវបៃតង</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Pailin/P3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">សុវណ្ណភូមិរីសត</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/Pailin/P4.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់ភ្នំខៀវ</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/Pailin/P5.jpg" alt="">
+                  </div>
+                  <br>
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">អាហារដ្ឋានប៉ៃលិនបណ្តូលចិត្ត</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Pailin/P1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/McCMrGyDiz2hBGvE9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ចំការខ្នុរ</h4></a> 
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Pailin/P2.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/MTeW4Dcib2czbXGY8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">អាហារដ្ឋានម្លប់ស្បូវបៃតង</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/Pailin/P3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/zsvZ8Gq3ZFYkRfSk8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">សុវណ្ណភូមិរីសត</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P21"><em>តាកែវ</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Takeo/TK1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/jHGLcByJpKkefZxu8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">អាហារដ្ឋានម្លប់អំពិល</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Takeo/TK2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ផ្ទះកាហ្វេបុរាណ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Takeo/TK3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/qWit6nMR3hK2qVwv6" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">រមណីយដ្ឋានអន្លង់ភ្ញៀវ</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/Takeo/TK4.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/ontk3bkmM1WAk2VW9" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំតាម៉ៅ</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/Takeo/TK5.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/g3LEW644fTtfVr7p7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំជីសូ</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Takeo/TK6.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/2MZVFSU1vKrhZFj1A" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំដា</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Takeo/TK1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/jHGLcByJpKkefZxu8" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">អាហារដ្ឋានម្លប់អំពិល</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/Takeo/TK2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ផ្ទះកាហ្វេបុរាណ</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P17"><em>ព្រៃវែង</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PV/PV1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ស្រុកកំពង់ត្របែក</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PV/PV2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ស្ពានអ្នកលឿង</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PV/PV3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភូមិសុខារាវី</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/PV/PV1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ស្រុកកំពង់ត្របែក</h4></a>
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/PV/PV2.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ស្ពានអ្នកលឿង</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PV/PV3.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភូមិសុខារាវី</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PV/PV1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ស្រុកកំពង់ត្របែក</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/PV/PV2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ស្ពានអ្នកលឿង</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P3"><em>ពោធិ៍សាត់</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Pursat/PS1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់ច្រកល្អៀង</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Pursat/PS2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់ថ្មចាំង ភ្នំសំកុស</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Pursat/PS3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំ១៥០០</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/Pursat/PS1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់ច្រកល្អៀង</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/Pursat/PS2.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់ថ្មចាំង ភ្នំសំកុស</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Pursat/PS3.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំ១៥០០</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/Pursat/PS1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់ច្រកល្អៀង</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/Pursat/PS2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់ថ្មចាំង ភ្នំសំកុស</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P13"><em>ស្ទឹងត្រែង</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/ST/ST1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកជ្រោះព្រះនិមិត្ត</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/ST/ST2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កោះហាន</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/ST/ST3.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ស្ទឹងត្រែងរីសត</h4></a>
+                </div>
+                <div class="item" style="text-align:center;"> 
+                  <div class="thumb">
+                    <img src="assets/ST/ST1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកជ្រោះព្រះនិមិត្ត</h4></a>
+
+                </div>
+                <div class="item" style="text-align:center;">
+                  <div class="thumb">
+                    <img src="assets/ST/ST2.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កោះហាន</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/ST/ST3.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ស្ទឹងត្រែងរីសត</h4></a>
+
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/ST/ST1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកជ្រោះព្រះនិមិត្ត</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb" >
+                    <img src="assets/ST/ST2.jpg" alt="">
+                    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កោះហាន</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P4"><em>ឧត្ដរមានជ័យ</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/UMC/U1.jpg" alt="">
+                  </div>
+                  <br>
+                  <h4 style="color: rgb(83, 131, 83);">មាត់ទន្លេ</h4>
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">មាត់ទន្លេ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/UMC/U2.jpg" alt=""> 
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ប្រាសាទតាមាន់ធំ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/UMC/U1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">មាត់ទន្លេ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/UMC/U2.jpg" alt="">    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ប្រាសាទតាមាន់ធំ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/UMC/U1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">មាត់ទន្លេ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/UMC/U2.jpg" alt="">   
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ប្រាសាទតាមាន់ធំ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/UMC/U1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">មាត់ទន្លេ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/UMC/U2.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ប្រាសាទតាមាន់ធំ</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P12"><em>ព្រះវិហារ</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PH/P1.jpg" alt="">
+                  </div>
+                  <br>  
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ប្រាសាទកោះកេរ្តិ៍</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PH/P2.jpg" alt=""> 
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ប្រាសាទដំរី</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PH/P3.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំត្បែង</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PH/P4.jpg" alt="">    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ប្រាសាទច្រាប</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PH/P5.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">BeTreed Adventures</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PH/P6.jpg" alt="">   
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">សហគមន៍និងទេសចរណ៍ភូមិតាបស</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PH/P7.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ដែនអភិរក្សភ្នំពក</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PH/P8.jpg" alt="">
+                  </div>
+                  <br>
+                  <h4 style="color: rgb(83, 131, 83);"​>ប្រាសាទព្រះវិហារ</h4>
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ប្រាសាទព្រះវិហារ</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P18"><em>ត្បូងឃ្មុំ</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/TB/TB1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">រូបសំណាក់ស្តេចនាគភូមិជួរកណ្តាល </h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/TB/TB2.jpg" alt=""> 
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ផ្ទះបុរាណនៅហាន់ជ័យ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/TB/TB1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">រូបសំណាក់ស្តេចនាគភូមិជួរកណ្តាល</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/TB/TB2.jpg" alt="">    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ផ្ទះបុរាណនៅហាន់ជ័យ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/TB/TB1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">រូបសំណាក់ស្តេចនាគភូមិជួរកណ្តាល</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/TB/TB2.jpg" alt="">   
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ផ្ទះបុរាណនៅហាន់ជ័យ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/TB/TB1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">រូបសំណាក់ស្តេចនាគភូមិជួរកណ្តាល</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/TB/TB2.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ផ្ទះបុរាណនៅហាន់ជ័យ</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P23"><em>កោះកុង</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KK/KK1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភូមិអាវឡាតាន់ </h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KK/KK2.jpg" alt=""> 
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កោះខ្មោច</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KK/KK3.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កោះកុងក្រៅ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KK/KK4.jpg" alt="">    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ទឹកធ្លាក់ឆាយខ្ពស់</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KK/KK5.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ឆ្នេរនេសាទ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KK/KK6.jpg" alt="">   
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កោះស្តេច</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KK/KK7.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ស្ពានសុភមង្គល</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/KK/KK5.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ឆ្នេរនេសាទ</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P2"><em>បន្ទាយមានជ័យ</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BMC/BMC1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វត្តប្រាសាទស្រះកណ្តាលខ្ចាស់ </h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BMC/BMC2.jpg" alt=""> 
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កាហ្វេ៣៦១</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BMC/BMC3.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">សួនមានជ័យ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BMC/BMC4.jpg" alt="">    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">សួនកំសាន្តជើងភ្នំព្រះនេត្រព្រះ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BMC/BMC5.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ប្រាសាទបន្ទាយឆ្មារ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BMC/BMC6.jpg" alt="">   
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ភ្នំដងរ៉ែក</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BMC/BMC1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">វត្តប្រាសាទស្រះកណ្តាលខ្ចាស់</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/BMC/BMC2.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កាហ្វេ៣៦១</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="cities-town">
+    <div class="container">
+      <div class="row">
+        <div class="slider-content" >
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 id="P22"><em>ព្រះសីហនុ</em></h2>
+            </div>
+            <div class="col-lg-12">
+              <div class="owl-cites-town owl-carousel">
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PSH/PSH1.jpg" alt="">
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ឆ្នេររាម</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PSH/PSH2.jpg" alt=""> 
+                  </div>
+                  <br>
+ 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ខ្មែរធ្វើបាន</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PSH/PSH3.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កោះក្របី</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PSH/PSH4.jpg" alt="">    
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">Long Set Resort, កោះរ៉ុង</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PSH/PSH5.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ផ្ទះលំហែចំការពេជ្រព្រែកទឹកសាប</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PSH/PSH6.jpg" alt="">   
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">កោះសង្សារ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PSH/PSH7.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">Brown Coffee ឆ្នេរអូត្រេះ</h4></a>
+                </div>
+                <div class="item" style = "text-align: center;">
+                  <div class="thumb">
+                    <img src="assets/PSH/PSH1.jpg" alt="">
+                  </div>
+                  <br> 
+                  <a href = "https://maps.app.goo.gl/o2ot4MRRv8EYYU4T7" target="_blank"><h4 style="color: rgb(83, 131, 83); text-align: center;margin-top: 10px;">ឆ្នេររាម</h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+    $(".option").click(function(){
+      $(".option").removeClass("active");
+      $(this).addClass("active"); 
+    });
+  </script>
+
+  </body>
+
+</html>

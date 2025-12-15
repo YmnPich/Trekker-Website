@@ -1,0 +1,21 @@
+
+  
+  .rating-container {
+    text-align: center;
+  }
+  
+  .stars {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .star {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .star:hover,
+  .star.active {
+    color: rgb(26, 187, 21);
+  }
+  

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Battambang' rel='stylesheet'>
+
+    <title>Trekker More Information</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-woox-travel.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/rate.css">
+<!--
+
+TemplateMo 580 Woox Travel
+
+https://templatemo.com/tm-580-woox-travel
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/trekker-high-resolution-logo-white-transparent.png" alt="">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li><a href="index.html">ខេត្តដែលល្បីៗ</a></li>
+                      <li><a href="about.html">ខេត្តផ្សេងទៀត</a></li>
+                      <li><a href="deals.html" >ព័ត៌មានបន្ថែម</a></li>
+                      <li><a href="reservation.html" class="active">ផ្តល់យោបល់</a></li>
+
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="second-page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>សូមអរគុណសម្រាប់ការទស្សនានៅប្រទេសយើង</h4>
+          <h2>សូមផ្តល់យោបល់នៅទំព័រនេះ</h2>
+          
+          <div class="main-button"><a href="about.html">មើលយោបល់បន្ថែម</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="more-info reservation-info" style="font-family: 'Battambang'; ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="info-item">
+            <i class="fa fa-phone"></i>
+            <h4>លេខទូរស័ព្ទទំនាក់ទំនង</h4>
+            <a href="#">+123 456 789 (0)</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="info-item">
+            <i class="fa fa-envelope"></i>
+            <h4>អុីម៉ែលទំនាក់ទំនង</h4>
+            <a href="#">trekker@cambodia.com</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="info-item">
+            <i class="fa fa-map-marker"></i>
+            <h4>ទីស្នាក់ការ</h4>
+            <a href="#">ផ្លូវ២០០៤ រាជធានីភ្នំពេញ ប្រទេសកម្ពុជា</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const starsContainer = document.getElementById('stars');
+      const ratingValue = document.getElementById('rating-value');
+      let currentRating = 0;
+  
+      starsContainer.addEventListener('mouseover', function (e) {
+        if (e.target.classList.contains('star')) {
+          resetStars();
+          const rating = e.target.getAttribute('data-rating');
+          highlightStars(rating);
+        }
+      });
+  
+      starsContainer.addEventListener('click', function (e) {
+        if (e.target.classList.contains('star')) {
+          currentRating = e.target.getAttribute('data-rating');
+          ratingValue.innerText = `Rating: ${currentRating}`;
+          resetStars();
+          highlightStars(currentRating);
+        }
+      });
+  
+      starsContainer.addEventListener('mouseout', function () {
+        resetStars();
+        highlightStars(currentRating);
+      });
+  
+      function resetStars() {
+        const allStars = document.querySelectorAll('.star');
+        allStars.forEach(star => star.classList.remove('active'));
+      }
+  
+      function highlightStars(rating) {
+        const starsToHighlight = document.querySelectorAll(`.star[data-rating='${rating}']`);
+        starsToHighlight.forEach(star => star.classList.add('active'));
+      }
+  
+      // Reset the rating when a button with class btn-success is clicked
+      const resetButton = document.querySelector('.btn-success');
+      resetButton.addEventListener('click', function () {
+        resetRating();
+      });
+  
+      function resetRating() {
+        currentRating = 0;
+        ratingValue.innerText = `Rating: ${currentRating}`;
+        resetStars();
+      }
+    });
+  </script>  
+<br>
+<br>
+<br>
+<script>
+  function logData(event){
+    event.preventDefault(); //Prevent default form submission
+    var data={
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      message: document.getElementById('message').value,
+
+    };
+    console.log(data);
+    document.getElementById('feedback-form').reset(); 
+  }
+
+    
+</script>
+  <div class="reservation-form" style="font-family: 'Battambang'; text-align:center" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="rating-container">
+            <div class="row"​>
+              <div class="col-lg-12">
+                <div class="rating-container">
+                  <h2>Rate this:</h2>
+                  <div class="stars" id="stars">
+                    <span class="star" data-rating="1">&#9733;</span>
+                    <span class="star" data-rating="2">&#9733;</span>
+                    <span class="star" data-rating="3">&#9733;</span>
+                    <span class="star" data-rating="4">&#9733;</span>
+                    <span class="star" data-rating="5">&#9733;</span>
+                  </div>
+                  <p id="rating-value">Rating: 0</p>
+                  
+                </div>
+              </div>
+            </div>  
+          </div>
+          <br>
+          <br>
+          <br>
+              <h4 style="font-size:40px;">សូមអញ្ជើញផ្តល់យោបល់អំពី website របស់យើងខ្ញុំ</h4>
+              <br>
+
+              <form id="feedback-form" name="fb" method="submit" role="search" action="#" >
+                
+
+                  <input type="text" class="form-control" id="name" placeholder="សរសេរឈ្មោះ" required>
+                  <br>
+                  
+                  <input type="email" class="form-control" id="email" placeholder="សរសេរអុីម៉ែល" required>
+                  <br>
+                    <textarea class="form-control" id="message" rows="4" placeholder="សរសេរយោបល់" required></textarea>
+                  <br>
+                  <button type="submit" class="btn btn-success" onclick="logData(event)" >បញ្ជូនយោបល់</button>
+                  <br>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2023 <a href="#">Trekker</a> Company. All rights reserved. 
+          <br>Design: <a href="https://templatemo.com" target="_blank" title="free CSS templates">TemplateMo</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="script.js"></script>
+
+  <script>
+    $(".option").click(function(){
+      $(".option").removeClass("active");
+      $(this).addClass("active"); 
+    });
+  </script>
+
+  </body>
+
+</html>

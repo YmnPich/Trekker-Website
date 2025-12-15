@@ -1,0 +1,393 @@
+<div class = "content" style="width: 95%; margin-left: 49px; box-shadow: 0px 0px 15px rgba(0,0,0,0.15); border-radius:23px; padding-top: 30px; padding-left: 30px; padding-right: 30px; padding-bottom: 30px; margin-top: 40px;">
+    <div class = "row" style = "font-family: 'Battambang'; margin-bottom: 30px;">
+      <h3>រាជធានីភ្នំពេញ</h3>
+      <br>
+        <div class = "col-6">
+          <div class="col-6">
+            <img style = " height: 300px; object-fit:cover; border-radius: 23px;" src="assets/images/museum.jpg" alt="">
+            <img style = " height: 300px; object-fit:cover; border-radius: 23px;" src="assets/images/aeon.jpg" alt="">
+  
+          </div>
+          <div class="col-6">
+            <img style = " height: 300px; object-fit:cover; border-radius: 23px;" src="assets/images/museum.jpg" alt="">
+            <img style = " height: 300px; object-fit:cover; border-radius: 23px;" src="assets/images/aeon.jpg" alt="">
+  
+          </div>       
+        </div>
+        
+       
+        <div class = "col-3">
+          <h3>សៀមរាប</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83); font-family:'Battambang';">ខេត្តសៀមរាប ជាខេត្តដែលមានអរិយធម៌អង្គរ ហើយជាខេត្តដែលផ្តល់ឱកាសច្រើនដល់ភ្ញៀវទេសចរណ៍ដែលចាប់អារម្មណ៍នឹងវប្បធម៌ខ្មែរ។ប្រាសាទអង្គរវត្តដែលស្ថិតនៅចំកណ្តាលព្រៃ និងហ្វាលែន ឥឡូវនេះបានចូលជាបេតិកភណ្ឌពិភពលោករបស់អង្គការយូណេស្កូ។ មានប្រាសាទជាងមួយពាន់ដែលមានទំហំចាប់ពីគំនរឥដ្ឋដែលមិនមានពណ៌នារាយប៉ាយតាមវាលស្រែរហូតដល់ប្រាសាទអង្គរវត្តដ៏អស្ចារ្យដែលត្រូវបានគេនិយាយថាជាបូជនីយដ្ឋានសាសនាដ៏ធំបំផុតរបស់ពិភពលោក។</p>
+        </div>
+       </div>
+        <div class = "row" style = "font-family: 'Battambang';">
+      	<div class = "col-3">
+          <img style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/cave - Copy.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <h3>បាត់ដំបង</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">ឈ្មោះបាត់ដំបង សំដៅលើរឿងភាគមួយក្នុងប្រវត្តិសាស្ត្រខ្មែរ នៅពេលដែលព្រះបាទដំបងក្រញូងបានបោះឈើរបស់ទ្រង់ចេញពីអង្គរ ហើយវាត្រូវបានគេនិយាយថាបានចុះចតនៅទីនេះក្នុងខេត្តបាត់ដំបង។ ក្នុងនាមជាទីក្រុងដែលមានប្រជាជនច្រើនជាងគេបំផុតរបស់ព្រះរាជាណាចក្រ បាត់ដំបងស្ថិតនៅលើដីមានជីជាតិដែលផ្តល់ដំណាំស្រូវដែលមានគុណភាពខ្ពស់បំផុតរបស់ប្រទេស។ វាត្រូវបានគេស្គាល់ថាជា Rice Bowl នៃប្រទេសកម្ពុជា ដោយសារជាខេត្តមួយ ខេត្តបាត់ដំបង អាចផ្តល់អង្ករគ្រប់គ្រាន់សម្រាប់ចិញ្ចឹមប្រទេសទាំងមូល។</p>
+        </div>
+        <div class = "col-3">
+          <img style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanoukville.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <h3>ព្រះសីហនុ</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">ខេត្តព្រះសីហនុ ដាក់ឈ្មោះតាមព្រះបាទនរោត្តម សីហនុ តាំងពីបានទទួលឯករាជ្យពីប្រទេសបារាំងនៅឆ្នាំ ១៩៥៣ ត្រូវបានគេស្គាល់ក្នុងស្រុកថា កំពង់សោម។ ត្រូវបានគេស្គាល់ថាសម្រាប់ឆ្នេរដ៏អស្ចារ្យរបស់ខ្លួន ខេត្តនេះវិលជុំវិញអាហារសមុទ្រដ៏អស្ចារ្យ កីឡាក្នុងទឹក និងកោះជុំវិញរបស់វា។ ឆ្នេរពេញនិយមដែលតម្រង់ជួរនៃទីក្រុងពីជើងទៅត្បូងមានដូចជា ឆ្នេរជ័យជំនះ ឆ្នេរដើមជ្រៃ ឆ្នេរឯករាជ្យ ឆ្នេរសុខា ឆ្នេរសិរីឌីភី ឆ្នេរអូរឈើទាល ឆ្នេរសម្តេច ហ៊ុន សែន ឆ្នេរហាវ៉ៃ ឆ្នេររាម និងឆ្នេរអូរត្រេះ។ </p>
+        </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+
+  <!--djkshkjsdf-->
+
+  <div class = "content" style="width: 95%; margin-left: 49px; box-shadow: 0px 0px 15px rgba(0,0,0,0.15); border-radius:23px; padding-top: 30px; padding-left: 30px; padding-right: 30px; padding-bottom: 30px; margin-top: 40px;">
+    <div class = "row" style = "font-family: 'Battambang'; margin-bottom: 30px;">
+        <h1>​តំបន់ជុំវិញបឹងទន្លេសាប</h1>
+      	<div class = "col-3">
+          <br>
+          <img class ="img-fluid" style = " height: 300px; object-fit: cover; border-radius: 23px;" src="assets/images/museum.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>កំពង់ធំ</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">កំពង់ធំ គឺជាខេត្តមួយក្នុងចំណោមខេត្តចំនួនប្រាំ ដែលមានទីតាំងនៅផ្នែកខាងក្រោមនៃបឹងទន្លេសាប និងសម្បូរទៅដោយរមណីយដ្ឋានប្រវត្តិសាស្ត្រ ដូចជាប្រាសាទនានាពីសម័យមុនអង្គរ ។</p>
+        </div>
+        <div class = "col-3" style = "margin-bottom: 0px; padding-bottom: 0px;">
+          <br>
+          <img class ="img-fluid" style = " height: 300px; object-fit: cover; border-radius: 23px;" src="assets/images/siemm_reapp.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>សៀមរាប</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83); font-family:'Battambang';">ខេត្តសៀមរាប ជាខេត្តដែលមានអរិយធម៌អង្គរ។ប្រាសាទអង្គរវត្តដែលស្ថិតនៅចំកណ្តាលព្រៃ និងហ្វាលែន ឥឡូវនេះបានចូលជាបេតិកភណ្ឌពិភពលោករបស់អង្គការយូណេស្កូ។ </p>
+        </div>
+       </div>
+        <div class = "row" style = "font-family: 'Battambang';">
+      	<div class = "col-3" >
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/cave - Copy.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>បន្ទាយមានជ័យ</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">តំបន់នេះជាផ្នែកមួយនៃអាណាចក្រខ្មែរ ដោយសារនៅភាគខាងជើងខេត្តគេឃើញមាន  ប្រាសាទដែលគេស្គាល់តិចតួចជាងគេគឺ ប្រាសាទបន្ទាយនាង និង ប្រាសាទបន្ទាយទ័ព។ </p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid" style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanoukville.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>បាត់ដំបង</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">ខេត្តព្រះសីហនុ ត្រូវបានគេស្គាល់ថាសម្រាប់ឆ្នេរដ៏អស្ចារ្យរបស់ខ្លួន ខេត្តនេះវិលជុំវិញអាហារសមុទ្រដ៏អស្ចារ្យ កីឡាក្នុងទឹក និងកោះជុំវិញរបស់វា។  </p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanoukville.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>ពោធិ៍សាត់</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">ស្ថិតនៅត្រើយខាងលិចនៃបឹងទន្លេសាប ខេត្តពោធិ៍សាត់ គ្របដណ្តប់ដោយដីភ្នំ ទីតាំងប្រវត្តិសាស្ត្រដ៏មានប្រជាប្រិយមួយគឺផ្នូររបស់ឧកញ៉ាឃ្លាំងមឿង ដែលជាវីរបុរសខ្មែរដែលបានដឹកនាំធ្វើសង្គ្រាមប្រឆាំងនឹងសៀម។</p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanoukville.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>កំពង់ឆ្នាំង</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">កំពង់ឆ្នាំង ជា​ខេត្ត​មួយ​ដែល​ល្បី​ខាង​គ្រឿង​ស្មូន​ដីឥដ្ឋ​ដ៏​ល្អ​។ ប្រជាជននៃខេត្តនេះចូលចិត្តធ្វើផើង ថូ និងគ្រឿងសេរ៉ាមិចផ្សេងៗជាច្រើនប្រភេទក្នុងរដូវច្រូតកាត់។ </p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanoukville.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>ឧត្តរមានជ័យ</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';"> ខេត្តនេះជាតំបន់ដែល មានប្រាសាទបុរាណជាច្រើនផងដែរ។ រីឯតំបន់ទេសចរណ៏ធម្មជាតិវិញ ទីនោះមានតំបន់អច្ឆរិយមួយគឺតំបន់រមណីយដ្ឋានដីដុះ ឬ រលួសធំដីដុះ ដែលមានទីតាំងនៅជាប់ជើងភ្នំដងរែក និងជាប់ផ្លូវក្រវ៉ាត់ព្រំដែន។ </p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanoukville.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>ប៉ែលិន</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">ប៉ៃលិន ជាខេត្តមួយស្ថិតនៅខាងជើងជួរភ្នំក្រវាញ ភាគខាងលិចប្រទេសកម្ពុជា មានតំបន់ទេសចរណ៍ដូចជា ទេសភាពភ្នំ ទឹកជ្រោះ និង ព្រៃឬស្សី។ </p>
+        </div>
+
+    </div>
+  </div>
+    
+  <!--តំបន់ភ្នំនិងខ្ពង់រាប-->
+  <div class = "content" style="width: 95%; margin-left: 49px; box-shadow: 0px 0px 15px rgba(0,0,0,0.15); border-radius:23px; padding-top: 30px; padding-left: 30px; padding-right: 30px; padding-bottom: 30px; margin-top: 40px;">
+      <div class = "row" style = "font-family: 'Battambang'; margin-bottom: 30px;">
+        <h1>​តំបន់ភ្នំនិងខ្ពង់រាប</h1>
+      	<div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = " height: 300px; object-fit: cover; border-radius: 23px;" src="assets/images/museum.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>កំពង់ស្ពឺ</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">  កំពង់ស្ពឺ មានភាពល្បីល្បាញដោយសារស្ករត្នោត ដែលចាត់ទុកថាល្អបំផុតនៅក្នុងព្រះរាជាណាចក្រ។ ខេត្ត​នេះ​ក៏​ផលិត​ទឹកត្នោតជូ ឬ​ស្រា​ត្នោត​ច្រើន​ដែរ។ភ្នំឱរ៉ាល់ គឺជាភ្នំដែលខ្ពស់ជាងគេបំផុតនៅក្នុងខេត្ត។</p>
+        </div>
+        <div class = "col-3" style = "margin-bottom: 0px; padding-bottom: 0px;">
+          <br>
+          <img class ="img-fluid" style = " height: 300px; object-fit: cover; border-radius: 23px;" src="assets/images/siemm_reapp.jpg" alt="">
+        </div>   
+        <div class = "col-3">
+          <br>
+          <h3>ព្រះវិហារ</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83); font-family:'Battambang';">ប្រាសាទព្រះវិហារត្រូវបានចុះក្នុងបញ្ជីបេតិកភណ្ឌពិភពលោកដោយអង្គការយូណេស្កូ នៅថ្ងៃទី៨ ខែកក្កដា ឆ្នាំ ២០០៨។</p>
+        </div>    
+        <div class = "row" style = "font-family: 'Battambang';">
+      	<div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/cave - Copy.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>រតនគិរី</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">កន្លែងទេសចរណ៍រួមមាន ភ្នំ និងភ្នំដែលមិនចេះរីងស្ងួត ខ្ពង់រាបកម្រិតមួយ ដីទំនាបទឹក បឹងក្រហូងច្បាស់លាស់ ទន្លេ និងទឹកធ្លាក់ដ៏ស្រស់ស្អាត។</p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanoukville.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>ស្ទឹងត្រែង</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">ភ្ញៀវទេសចរណ៍ទស្សនាដើម្បីសង្កេតមើលផ្សោតអ៊ីរ៉ាវ៉ាឌីទឹកសាបដ៏កម្រ ទឹកជ្រោះ បោះជំរុំ ដើរលេង និងជិះទូកកាយ៉ាក់កាត់តាមតំបន់ដីសើម។  </p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanoukville.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>ក្រចេះ</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">ការមើលផ្សោតគឺជាសកម្មភាពដ៏ពេញនិយមមួយ។ វាត្រូវបានគេប៉ាន់ប្រមាណថាមានសត្វផ្សោតតិចជាង ៨០ក្បាលនៅសល់។  </p>
+
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanoukville.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>មណ្ឌលគិរី</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';"></p>
+        </div>
+      </div>
+  </div>
+  </div>
+
+  
+
+    <!--តំបន់វាលរាប-->
+    <div class = "content" style="width: 95%; margin-left: 49px; box-shadow: 0px 0px 15px rgba(0,0,0,0.15); border-radius:23px; padding-top: 30px; padding-left: 30px; padding-right: 30px; padding-bottom: 30px; margin-top: 40px;">
+      <div class = "row" style = "font-family: 'Battambang'; margin-bottom: 30px;">
+        <h1>​តំបន់វាលរាប</h1>
+      	<div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = " height: 300px; object-fit: cover; border-radius: 23px;" src="assets/images/museum.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>រាជធានីភ្នំពេញ</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">  កំពង់ស្ពឺ មានភាពល្បីល្បាញដោយសារស្ករត្នោត ដែលចាត់ទុកថាល្អបំផុតនៅក្នុងព្រះរាជាណាចក្រ។ ខេត្ត​នេះ​ក៏​ផលិត​ទឹកត្នោតជូ ឬ​ស្រា​ត្នោត​ច្រើន​ដែរ។ភ្នំឱរ៉ាល់ គឺជាភ្នំដែលខ្ពស់ជាងគេបំផុតនៅក្នុងខេត្ត។</p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = " height: 300px; object-fit: cover; border-radius: 23px;" src="assets/images/siemm_reapp.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>កណ្តាល</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83); font-family:'Battambang';">ប្រាសាទព្រះវិហារត្រូវបានចុះក្នុងបញ្ជីបេតិកភណ្ឌពិភពលោកដោយអង្គការយូណេស្កូ នៅថ្ងៃទី៨ ខែកក្កដា ឆ្នាំ ២០០៨។</p>
+        </div>
+       
+        <div class = "row" style = "font-family: 'Battambang';">
+      	<div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/cave - Copy.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>កំពង់ចាម</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">កន្លែងទេសចរណ៍រួមមាន ភ្នំ និងភ្នំដែលមិនចេះរីងស្ងួត ខ្ពង់រាបកម្រិតមួយ ដីទំនាបទឹក បឹងក្រហូងច្បាស់លាស់ ទន្លេ និងទឹកធ្លាក់ដ៏ស្រស់ស្អាត។</p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanoukville.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>ស្វាយរៀង</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">ភ្ញៀវទេសចរណ៍ទស្សនាដើម្បីសង្កេតមើលផ្សោតអ៊ីរ៉ាវ៉ាឌីទឹកសាបដ៏កម្រ ទឹកជ្រោះ បោះជំរុំ ដើរលេង និងជិះទូកកាយ៉ាក់កាត់តាមតំបន់ដីសើម។  </p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanoukville.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>ព្រៃវែង</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">ការមើលផ្សោតគឺជាសកម្មភាពដ៏ពេញនិយមមួយ។ វាត្រូវបានគេប៉ាន់ប្រមាណថាមានសត្វផ្សោតតិចជាង ៨០ក្បាលនៅសល់។  </p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/kompong_chnang.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>តាកែវ</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';"></p>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+    <!--តំបន់ឆ្នេរ-->
+    <div class = "content" style="width: 95%; margin-left: 49px; box-shadow: 0px 0px 15px rgba(0,0,0,0.15); border-radius:23px; padding-top: 30px; padding-left: 30px; padding-right: 30px; padding-bottom: 30px; margin-top: 40px;">
+      <div class = "row" style = "font-family: 'Battambang'; margin-bottom: 30px;">
+        <h1>​តំបន់សមុទ្រ</h1>
+      	<div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = " height: 300px; object-fit: cover; border-radius: 23px;" src="assets/images/mondulkiri.png" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>ព្រះសីហនុ</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">  កំពង់ស្ពឺ មានភាពល្បីល្បាញដោយសារស្ករត្នោត ដែលចាត់ទុកថាល្អបំផុតនៅក្នុងព្រះរាជាណាចក្រ។ ខេត្ត​នេះ​ក៏​ផលិត​ទឹកត្នោតជូ ឬ​ស្រា​ត្នោត​ច្រើន​ដែរ។ភ្នំឱរ៉ាល់ គឺជាភ្នំដែលខ្ពស់ជាងគេបំផុតនៅក្នុងខេត្ត។</p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanouk.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>កំពត</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">ភ្ញៀវទេសចរណ៍ទស្សនាដើម្បីសង្កេតមើលផ្សោតអ៊ីរ៉ាវ៉ាឌីទឹកសាបដ៏កម្រ ទឹកជ្រោះ បោះជំរុំ ដើរលេង និងជិះទូកកាយ៉ាក់កាត់តាមតំបន់ដីសើម។  </p>
+        </div>
+        <div class = "row" style = "font-family: 'Battambang';">
+      	<div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/kompong_thom.png" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>កោះកុង</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">កន្លែងទេសចរណ៍រួមមាន ភ្នំ និងភ្នំដែលមិនចេះរីងស្ងួត ខ្ពង់រាបកម្រិតមួយ ដីទំនាបទឹក បឹងក្រហូងច្បាស់លាស់ ទន្លេ និងទឹកធ្លាក់ដ៏ស្រស់ស្អាត។</p>
+        </div>
+        <div class = "col-3">
+          <br>
+          <img class ="img-fluid"style = "height: 300px;object-fit: cover; border-radius: 23px;" src="assets/images/sihanouk.jpg" alt="">
+        </div>
+        <div class = "col-3">
+          <br>
+          <h3>កែប</h3>
+          <br>
+          <p style = "color: rgb(83, 131, 83);font-family:'Battambang';">ភ្ញៀវទេសចរណ៍ទស្សនាដើម្បីសង្កេតមើលផ្សោតអ៊ីរ៉ាវ៉ាឌីទឹកសាបដ៏កម្រ ទឹកជ្រោះ បោះជំរុំ ដើរលេង និងជិះទូកកាយ៉ាក់កាត់តាមតំបន់ដីសើម។  </p>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<!--reservation-->
+<div class="reservation-form" style="font-family: 'Battambang'; text-align:center" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="rating-container">
+          <div class="row"​>
+            <div class="col-lg-12">
+              <div class="rating-container">
+                <h2>Rate this:</h2>
+                <div class="stars" id="stars">
+                  <span class="star" data-rating="1">&#9733;</span>
+                  <span class="star" data-rating="2">&#9733;</span>
+                  <span class="star" data-rating="3">&#9733;</span>
+                  <span class="star" data-rating="4">&#9733;</span>
+                  <span class="star" data-rating="5">&#9733;</span>
+                
+                </div>
+                <p id="rating-value">Rating: 0</p>
+                
+              </div>
+            </div>
+          </div>  
+        </div>
+        <br>
+        <br>
+        <br>
+            <h4 style="font-size:40px;">សូមអញ្ជើញផ្តល់យោបល់អំពី website របស់យើងខ្ញុំ</h4>
+            <br>
+
+            <form id="feedback-form" name="fb" method="submit" role="search" action="#" >
+              
+
+                <input type="text" class="form-control" id="name" placeholder="សរសេរឈ្មោះ" required>
+                <br>
+                
+                <input type="email" class="form-control" id="email" placeholder="សរសេរអុីម៉ែល" required>
+                <br>
+                  <textarea class="form-control" id="message" rows="4" placeholder="សរសេរយោបល់" required></textarea>
+                <br>
+                <button type="submit" class="btn btn-success" onclick="logData(event)" >បញ្ជូនយោបល់</button>
+                <br>
+            </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <p>Copyright © 2023 <a href="#">Trekker</a> Company. All rights reserved. 
+        <br>Design: <a href="https://templatemo.com" target="_blank" title="free CSS templates">TemplateMo</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
